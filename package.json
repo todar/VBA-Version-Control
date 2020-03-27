@@ -1,0 +1,29 @@
+{
+  "name": "vba",
+  "version": "0.1.0",
+  "description": "Version control for VBA using Git",
+  "main": "./bin/cli.js",
+  "scripts": {
+    "upload": "upload.vbs",
+    "export": "export.vbs",
+    "link": "npm link"
+  },
+  "bin": {
+    "vba": "./bin/cli.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/todar/VBA.git"
+  },
+  "keywords": [
+    "VBA",
+    "Version-Control",
+    "Git"
+  ],
+  "author": "Robert Todar",
+  "license": "MIT",
+  "dependencies": {
+    "commander": "^5.0.0",
+    "inquirer": "^7.1.0"
+  }
+}
